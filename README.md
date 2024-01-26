@@ -22,12 +22,12 @@ _Important note: If you're using TypeScript, don't forget to add `declare module
 
 ```javascript
 // import picker compopnent
-import EmojiPicker from 'vue3-emoji-picker'
+import EmojiPicker from 'vue3-twemoji-picker'
 
 // import css
-import 'vue3-emoji-picker/css'
+import 'vue3-twemoji-picker/css'
 // or import directly:
-// import'node_modules/vue3-emoji-picker/dist/style.css'
+// import'node_modules/vue3-twemoji-picker/dist/style.css'
 ```
 
 ```vue
@@ -57,11 +57,10 @@ function onSelectEmoji(emoji) {
 | Prop                       | Type    | Default Value | Description                                                                                 |
 | :------------------------- | :------ | :------------ | :------------------------------------------------------------------------------------------ |
 | native                     | Boolean | false         | Load native emoji instead of image.                                                         |
-| hide-search                | Boolean | true          | Show/hide search input.                                                                     |
-| hide-group-icons           | Boolean | false         | Show/hide header group icons.                                                               |
-| hide-group-names           | Boolean | false         | Show/hide group names.                                                                      |
+| icons-src                     | string | 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/'         | Path to icons. Files should use emoji HEX i.e 1f911.svg                                                         |
+| icons-type                     | string | 'svg'         | Icon MIME type.                                                         |
+| hide-elements                | Array | []          | Array of elements to hide. Options, 'header', 'footer', 'group-icons', 'group-names' and 'search'.                                                                     |
 | disable-sticky-group-names | Boolean | false         | Disable sticky for group names                                                              |
-| disable-skin-tones         | Boolean | false         | Disable skin tones.                                                                         |
 | disabled-groups            | Array   | []            | Disable any group/category. See [Available groups](#available-groups)                       |
 | group-names                | Object  | {}            | Change any group name. See [Default group names](#default-group-names)                      |
 | static-texts               | Object  | Object        | See [static-texts](#propsstatic-texts) table                                                |
@@ -166,7 +165,7 @@ This will make it so flags is first and then any other non-defined group will fo
 
 ## Add additional groups
 
-To see any existing emoji's see `src/data/emojis.json`
+To see any existing emoji's see `src/data/[locale]/emojis.json`
 
 ```vue
 <picker

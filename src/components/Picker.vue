@@ -2,6 +2,7 @@
   <picker-root
     :type="type"
     :text="input"
+    :hide-elements="hideElements"
     @select="$emit('select', $event)"
     @update:text="onChangeText"
   />
@@ -31,10 +32,6 @@ export default defineComponent({
       type: Boolean,
       default: false,
     },
-    hideSearch: {
-      type: Boolean,
-      default: false,
-    },
     hideGroupIcons: {
       type: Boolean,
       default: false,
@@ -50,6 +47,10 @@ export default defineComponent({
     disableStickyGroupNames: {
       type: Boolean,
       default: false,
+    },
+    hideElements: {
+      type: Array,
+      default: () => [],
     },
     disabledGroups: {
       type: Array,
@@ -74,6 +75,18 @@ export default defineComponent({
     offset: {
       type: Number,
       default: 6,
+    },
+    iconsSrc: {
+      type: String,
+      default: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/',
+    },
+    iconType: {
+      type: String,
+      default: 'svg',
+    },
+    locale: {
+      type: String,
+      default: 'en',
     },
     additionalGroups: {
       type: Object,
@@ -126,11 +139,12 @@ export default defineComponent({
      */
     store.updateOptions({
       native: props.native,
-      hideSearch: props.hideSearch,
-      hideGroupIcons: props.hideGroupIcons,
-      hideGroupNames: props.hideGroupNames,
+      iconsSrc: props.iconsSrc,
+      iconType: props.iconType,
+      locale: props.locale,
       staticTexts: { ...STATIC_TEXTS, ...props.staticTexts },
       disableStickyGroupNames: props.disableStickyGroupNames,
+      hideElements: props.hideElements,
       disabledGroups: props.disabledGroups,
       groupNames: { ...GROUP_NAMES, ...props.groupNames },
       disableSkinTones: props.disableSkinTones,

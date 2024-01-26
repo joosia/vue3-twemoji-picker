@@ -47,6 +47,7 @@ export type EmojiRecord = Record<string, Emoji[]>
 
 export interface State {
   groups: Group[]
+  hiddenElements: string[]
   emojis: EmojiRecord
   additionalGroups: EmojiRecord
   search: string

@@ -5,7 +5,7 @@
         <div v-for="key of orderedKeys" :id="key" :key="key" class="v3-group">
           <h5
             v-show="emojis[key]"
-            v-if="hasGroupNames"
+            v-if="!hiddenElements.includes('group-names')"
             :class="isSticky ? `v3-sticky` : ``"
           >
             {{ groupNames[key] }}
@@ -21,10 +21,10 @@
               <!-- Native emoji -->
               <span v-if="native">{{ unicodeToEmoji(emoji.r) }}</span>
 
-              <!-- Load from CDN when options.native = true -->
+              <!-- Load from CDN when options.native = false -->
               <img
                 v-else
-                :src="EMOJI_REMOTE_SRC + `/${emoji.r}.png`"
+                :src="`${iconsSrc}/${emoji.r}.${iconType}`"
                 :alt="emoji.n[0]"
                 @error="handleError($event, emoji.r)"
               />
@@ -32,7 +32,7 @@
           </div>
         </div>
       </template>
-      <span v-else class="v3-no-result"> No emoji has been found! </span>
+      <span v-else class="v3-no-result"> {{ locale === 'fi' ? 'Ei hakutuloksia': 'No emoji has been found!' }} </span>
     </div>
   </div>
 </template>
@@ -54,14 +54,9 @@ import {
 /**
  * Internal dependencies
  */
-import {EmojiRecord, Emoji, Store, EmojiExt} from '../types'
+import { EmojiRecord, Emoji, Store, EmojiExt } from '../types'
 
-import {
-  EMOJI_REMOTE_SRC,
-  GROUP_NAMES,
-  EMOJI_RESULT_KEY,
-  EMOJI_NAME_KEY,
-} from '../constant'
+import { GROUP_NAMES, EMOJI_RESULT_KEY, EMOJI_NAME_KEY } from '../constant'
 import {
   filterEmojis,
   unicodeToEmoji,
@@ -87,7 +82,7 @@ export default defineComponent({
     })
 
     const _this = getCurrentInstance()
-    const hasGroupNames = computed(() => !state.options.hideGroupNames)
+    const hiddenElements = state.hiddenElements;
     const isSticky = computed(() => !state.options.disableStickyGroupNames)
     const groupNames = toRaw(state.options.groupNames)
     const orderedKeys = state.orderedGroupKeys
@@ -142,20 +137,22 @@ export default defineComponent({
     return {
       emojis,
       bodyInner,
-      EMOJI_REMOTE_SRC,
       GROUP_NAMES,
       handleClick,
       handleError,
       handleMouseEnter,
+      iconsSrc: state.options.iconsSrc,
+      iconType: state.options.iconType,
+      locale: state.options.locale,
       native: state.options.native,
       unicodeToEmoji,
       EMOJI_RESULT_KEY,
       EMOJI_NAME_KEY,
-      hasGroupNames,
       isSticky,
       platform,
       groupNames,
       orderedKeys,
+      hiddenElements
     }
   },
 })

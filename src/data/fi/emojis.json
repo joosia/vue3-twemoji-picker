@@ -1,0 +1,1313 @@
+{
+  "food_drink": [
+    {
+      "n": ["viinirypäleet"],
+      "u": "1f347"
+    },
+    {
+      "n": ["meloni"],
+      "u": "1f348"
+    },
+    {
+      "n": ["vesimeloni"],
+      "u": "1f349"
+    },
+    {
+      "n": ["mandariini"],
+      "u": "1f34a"
+    },
+    {
+      "n": ["sitruuna"],
+      "u": "1f34b"
+    },
+    {
+      "n": ["banaani"],
+      "u": "1f34c"
+    },
+    {
+      "n": ["ananas"],
+      "u": "1f34d"
+    },
+    {
+      "n": ["punainen omena"],
+      "u": "1f34e"
+    },
+    {
+      "n": ["vihreä omena"],
+      "u": "1f34f"
+    },
+    {
+      "n": ["päärynä"],
+      "u": "1f350"
+    },
+    {
+      "n": ["persikka"],
+      "u": "1f351"
+    },
+    {
+      "n": ["kirsikat"],
+      "u": "1f352"
+    },
+    {
+      "n": ["mansikka"],
+      "u": "1f353"
+    },
+    {
+      "n": ["kiivi"],
+      "u": "1f95d"
+    },
+    {
+      "n": ["tomaatti"],
+      "u": "1f345"
+    },
+    {
+      "n": ["kookospähkinä"],
+      "u": "1f965"
+    },
+    {
+      "n": ["avokado"],
+      "u": "1f951"
+    },
+    {
+      "n": ["munakoiso"],
+      "u": "1f346"
+    },
+    {
+      "n": ["peruna"],
+      "u": "1f954"
+    },
+    {
+      "n": ["porkkana"],
+      "u": "1f955"
+    },
+    {
+      "n": ["maissi"],
+      "u": "1f33d"
+    },
+    {
+      "n": ["chilipippuri"],
+      "u": "1f336"
+    },
+    {
+      "n": ["kurkku"],
+      "u": "1f952"
+    },
+    {
+      "n": ["parsakaali"],
+      "u": "1f966"
+    },
+    {
+      "n": ["sieni"],
+      "u": "1f344"
+    },
+    {
+      "n": ["maapähkinät"],
+      "u": "1f95c"
+    },
+    {
+      "n": ["kastanja"],
+      "u": "1f330"
+    },
+    {
+      "n": ["leipä"],
+      "u": "1f35e"
+    },
+    {
+      "n": ["croissant"],
+      "u": "1f950"
+    },
+    {
+      "n": ["patonki"],
+      "u": "1f956"
+    },
+    {
+      "n": ["pretzel"],
+      "u": "1f968"
+    },
+    {
+      "n": ["pannukakut"],
+      "u": "1f95e"
+    },
+    {
+      "n": ["juustonpala"],
+      "u": "1f9c0"
+    },
+    {
+      "n": ["liha luulla"],
+      "u": "1f356"
+    },
+    {
+      "n": ["kanankoipi"],
+      "u": "1f357"
+    },
+    {
+      "n": ["lihaviipale"],
+      "u": "1f969"
+    },
+    {
+      "n": ["pekoni"],
+      "u": "1f953"
+    },
+    {
+      "n": ["hampurilainen"],
+      "u": "1f354"
+    },
+    {
+      "n": ["ranskalaiset"],
+      "u": "1f35f"
+    },
+    {
+      "n": ["pizzapala"],
+      "u": "1f355"
+    },
+    {
+      "n": ["hotdog"],
+      "u": "1f32d"
+    },
+    {
+      "n": ["voileipä"],
+      "u": "1f96a"
+    },
+    {
+      "n": ["taco"],
+      "u": "1f32e"
+    },
+    {
+      "n": ["burrito"],
+      "u": "1f32f"
+    },
+    {
+      "n": ["täytetty leipä"],
+      "u": "1f959"
+    },
+    {
+      "n": ["muna"],
+      "u": "1f95a"
+    },
+    {
+      "n": ["paistettu muna"],
+      "u": "1f373"
+    },
+    {
+      "n": ["paistinpannullinen ruokaa"],
+      "u": "1f958"
+    },
+    {
+      "n": ["kattilallinen ruokaa"],
+      "u": "1f372"
+    },
+    {
+      "n": ["kulho lusikalla"],
+      "u": "1f963"
+    },
+    {
+      "n": ["vihreä salaatti"],
+      "u": "1f957"
+    },
+    {
+      "n": ["popcorn"],
+      "u": "1f37f"
+    },
+    {
+      "n": ["säilykeruoka"],
+      "u": "1f96b"
+    },
+    {
+      "n": ["bento-laatikko"],
+      "u": "1f371"
+    },
+    {
+      "n": ["riisikeksi"],
+      "u": "1f358"
+    },
+    {
+      "n": ["riisipallo"],
+      "u": "1f359"
+    },
+    {
+      "n": ["keitetty riisi"],
+      "u": "1f35a"
+    },
+    {
+      "n": ["curry ja riisi"],
+      "u": "1f35b"
+    },
+    {
+      "n": ["höyryävä kulho"],
+      "u": "1f35c"
+    },
+    {
+      "n": ["spaghetti"],
+      "u": "1f35d"
+    },
+    {
+      "n": ["paahdettu bataatti"],
+      "u": "1f360"
+    },
+    {
+      "n": ["oden"],
+      "u": "1f362"
+    },
+    {
+      "n": ["sushi"],
+      "u": "1f363"
+    },
+    {
+      "n": ["paistetut katkaravut"],
+      "u": "1f364"
+    },
+    {
+      "n": ["kalakakku"],
+      "u": "1f365"
+    },
+    {
+      "n": ["dango"],
+      "u": "1f361"
+    },
+    {
+      "n": ["nyytti"],
+      "u": "1f95f"
+    },
+    {
+      "n": ["onnenkeksi"],
+      "u": "1f960"
+    },
+    {
+      "n": ["takeout-rasia"],
+      "u": "1f961"
+    },
+    {
+      "n": ["pehmeä jäätelö"],
+      "u": "1f366"
+    },
+    {
+      "n": ["jäähile"],
+      "u": "1f367"
+    },
+    {
+      "n": ["jäätelö"],
+      "u": "1f368"
+    },
+    {
+      "n": ["donitsi"],
+      "u": "1f369"
+    },
+    {
+      "n": ["keksi"],
+      "u": "1f36a"
+    },
+    {
+      "n": ["syntymäpäiväkakku"],
+      "u": "1f382"
+    },
+    {
+      "n": ["kerroskakku"],
+      "u": "1f370"
+    },
+    {
+      "n": ["piirakka"],
+      "u": "1f967"
+    },
+    {
+      "n": ["suklaapatukka"],
+      "u": "1f36b"
+    },
+    {
+      "n": ["karkki"],
+      "u": "1f36c"
+    },
+    {
+      "n": ["tikkari"],
+      "u": "1f36d"
+    },
+    {
+      "n": ["vanukas"],
+      "u": "1f36e"
+    },
+    {
+      "n": ["hunajapurkki"],
+      "u": "1f36f"
+    },
+    {
+      "n": ["tuttipullo"],
+      "u": "1f37c"
+    },
+    {
+      "n": ["lasi maitoa"],
+      "u": "1f95b"
+    },
+    {
+      "n": ["kuuma juoma"],
+      "u": "2615"
+    },
+    {
+      "n": ["kahvikuppi"],
+      "u": "1f375"
+    },
+    {
+      "n": ["sakepullo ja -kuppi"],
+      "u": "1f376"
+    },
+    {
+      "n": ["kuohuviinipullo"],
+      "u": "1f37e"
+    },
+    {
+      "n": ["viinilasi"],
+      "u": "1f377"
+    },
+    {
+      "n": ["cocktail-lasi"],
+      "u": "1f378"
+    },
+    {
+      "n": ["trooppinen juoma"],
+      "u": "1f379"
+    },
+    {
+      "n": ["olutkruska"],
+      "u": "1f37a"
+    },
+    {
+      "n": ["kippis olutkruskilla"],
+      "u": "1f37b"
+    },
+    {
+      "n": ["kippis laseilla"],
+      "u": "1f942"
+    },
+    {
+      "n": ["tumbler-lasi"],
+      "u": "1f943"
+    },
+    {
+      "n": ["pillillä varustettu kuppi"],
+      "u": "1f964"
+    },
+    {
+      "n": ["syömäpuikot"],
+      "u": "1f962"
+    },
+    {
+      "n": ["veitsi, haarukka ja lautanen"],
+      "u": "1f37d"
+    },
+    {
+      "n": ["haarukka ja veitsi"],
+      "u": "1f374"
+    },
+    {
+      "n": ["lusikka"],
+      "u": "1f944"
+    },
+    {
+      "n": ["veitsi"],
+      "u": "1f52a"
+    },
+    {
+      "n": ["amfora"],
+      "u": "1f3fa"
+    }
+  ],
+  "activities": [
+    {
+      "n": ["kurpitsalyhty"],
+      "u": "1f383"
+    },
+    {
+      "n": ["joulukuusi"],
+      "u": "1f384"
+    },
+    {
+      "n": ["ilotulitus"],
+      "u": "1f386"
+    },
+    {
+      "n": ["tähtisädetikku"],
+      "u": "1f387"
+    },
+    {
+      "n": ["kimalteet"],
+      "u": "2728"
+    },
+    {
+      "n": ["ilmapallo"],
+      "u": "1f388"
+    },
+    {
+      "n": ["juhlapopperi"],
+      "u": "1f389"
+    },
+    {
+      "n": ["konfettipallo"],
+      "u": "1f38a"
+    },
+    {
+      "n": ["tanabatan puu"],
+      "u": "1f38b"
+    },
+    {
+      "n": ["mäntykoriste"],
+      "u": "1f38d"
+    },
+    {
+      "n": ["japanilaiset nuket"],
+      "u": "1f38e"
+    },
+    {
+      "n": ["koi-nobori"],
+      "u": "1f38f"
+    },
+    {
+      "n": ["tuulikello"],
+      "u": "1f390"
+    },
+    {
+      "n": ["kuun katselun seremonia"],
+      "u": "1f391"
+    },
+    {
+      "n": ["nauha"],
+      "u": "1f380"
+    },
+    {
+      "n": ["lahjapaketti"],
+      "u": "1f381"
+    },
+    {
+      "n": ["muistutusnauha"],
+      "u": "1f397"
+    },
+    {
+      "n": ["pääsyliput"],
+      "u": "1f39f"
+    },
+    {
+      "n": ["lippu"],
+      "u": "1f3ab"
+    },
+    {
+      "n": ["mitali"],
+      "u": "1f396"
+    },
+    {
+      "n": ["pokaali"],
+      "u": "1f3c6"
+    },
+    {
+      "n": ["urheilumitali"],
+      "u": "1f3c5"
+    },
+    {
+      "n": ["ensimmäisen sijan mitali"],
+      "u": "1f947"
+    },
+    {
+      "n": ["toisen sijan mitali"],
+      "u": "1f948"
+    },
+    {
+      "n": ["kolmannen sijan mitali"],
+      "u": "1f949"
+    },
+    {
+      "n": ["jalkapallo"],
+      "u": "26bd"
+    },
+    {
+      "n": ["pesäpallo"],
+      "u": "26be"
+    },
+    {
+      "n": ["koripallo"],
+      "u": "1f3c0"
+    },
+    {
+      "n": ["lentopallo"],
+      "u": "1f3d0"
+    },
+    {
+      "n": ["amerikkalainen jalkapallo"],
+      "u": "1f3c8"
+    },
+    {
+      "n": ["rugby"],
+      "u": "1f3c9"
+    },
+    {
+      "n": ["tennismaila ja -pallo"],
+      "u": "1f3be"
+    },
+    {
+      "n": ["biljardi"],
+      "u": "1f3b1"
+    },
+    {
+      "n": ["keilailu"],
+      "u": "1f3b3"
+    },
+    {
+      "n": ["krikettimaila ja -pallo"],
+      "u": "1f3cf"
+    },
+    {
+      "n": ["kenttähockeymaila ja -pallo"],
+      "u": "1f3d1"
+    },
+    {
+      "n": ["jääkiekkomaila ja -kiekko"],
+      "u": "1f3d2"
+    },
+    {
+      "n": ["pöytätennismaila ja -pallo"],
+      "u": "1f3d3"
+    },
+    {
+      "n": ["sulkapallomaila ja -pallo"],
+      "u": "1f3f8"
+    },
+    {
+      "n": ["nyrkkeilyhanska"],
+      "u": "1f94a"
+    },
+    {
+      "n": ["kamppailulajiuniformu"],
+      "u": "1f94b"
+    },
+    {
+      "n": ["maaliverkko"],
+      "u": "1f945"
+    },
+    {
+      "n": ["tikka"],
+      "u": "1f3af"
+    },
+    {
+      "n": ["lippu reiässä"],
+      "u": "26f3"
+    },
+    {
+      "n": ["luistin"],
+      "u": "26f8"
+    },
+    {
+      "n": ["kalastusväline ja kala"],
+      "u": "1f3a3"
+    },
+    {
+      "n": ["juoksupaita"],
+      "u": "1f3bd"
+    },
+    {
+      "n": ["sukset ja monot"],
+      "u": "1f3bf"
+    },
+    {
+      "n": ["kelkka"],
+      "u": "1f6f7"
+    },
+    {
+      "n": ["curling-kivi"],
+      "u": "1f94c"
+    },
+    {
+      "n": ["videopeli"],
+      "u": "1f3ae"
+    },
+    {
+      "n": ["peliohjain"],
+      "u": "1f579"
+    },
+    {
+      "n": ["noppa"],
+      "u": "1f3b2"
+    },
+    {
+      "n": ["pata"],
+      "u": "2660"
+    },
+    {
+      "n": ["hertta"],
+      "u": "2665"
+    },
+    {
+      "n": ["ruutu"],
+      "u": "2666"
+    },
+    {
+      "n": ["risti"],
+      "u": "2663"
+    },
+    {
+      "n": ["jokeri"],
+      "u": "1f0cf"
+    },
+    {
+      "n": ["mahjong-tiili"],
+      "u": "1f004"
+    },
+    {
+      "n": ["kukkapelikortit"],
+      "u": "1f3b4"
+    }
+  ],
+  "objects": [
+    {
+      "n": ["mykistetty kaiutin"],
+      "u": "1f507"
+    },
+    {
+      "n": ["kaiutin"],
+      "u": "1f508"
+    },
+    {
+      "n": ["kaiutin yhdellä ääniaallolla"],
+      "u": "1f509"
+    },
+    {
+      "n": ["kaiutin kolmella ääniaallolla"],
+      "u": "1f50a"
+    },
+    {
+      "n": ["megafoni"],
+      "u": "1f4e2"
+    },
+    {
+      "n": ["kannustusmegafoni"],
+      "u": "1f4e3"
+    },
+    {
+      "n": ["postitorvi"],
+      "u": "1f4ef"
+    },
+    {
+      "n": ["kello"],
+      "u": "1f514"
+    },
+    {
+      "n": ["kello rastin kanssa"],
+      "u": "1f515"
+    },
+    {
+      "n": ["nuottiviivasto"],
+      "u": "1f3bc"
+    },
+    {
+      "n": ["musiikkinuotti"],
+      "u": "1f3b5"
+    },
+    {
+      "n": ["useita musiikkinuotteja"],
+      "u": "1f3b6"
+    },
+    {
+      "n": ["studiomikrofoni"],
+      "u": "1f399"
+    },
+    {
+      "n": ["tasosäädin"],
+      "u": "1f39a"
+    },
+    {
+      "n": ["säätimet"],
+      "u": "1f39b"
+    },
+    {
+      "n": ["mikrofoni"],
+      "u": "1f3a4"
+    },
+    {
+      "n": ["kuulokkeet"],
+      "u": "1f3a7"
+    },
+    {
+      "n": ["radio"],
+      "u": "1f4fb"
+    },
+    {
+      "n": ["saksofoni"],
+      "u": "1f3b7"
+    },
+    {
+      "n": ["kitara"],
+      "u": "1f3b8"
+    },
+    {
+      "n": ["musiikkinäppäimistö"],
+      "u": "1f3b9"
+    },
+    {
+      "n": ["trumpetti"],
+      "u": "1f3ba"
+    },
+    {
+      "n": ["viulu"],
+      "u": "1f3bb"
+    },
+    {
+      "n": ["rummut"],
+      "u": "1f941"
+    },
+    {
+      "n": ["matkapuhelin"],
+      "u": "1f4f1"
+    },
+    {
+      "n": ["matkapuhelin nuolella"],
+      "u": "1f4f2"
+    },
+    {
+      "n": ["puhelin"],
+      "u": "260e"
+    },
+    {
+      "n": ["puhelimen vastaanotin"],
+      "u": "1f4de"
+    },
+    {
+      "n": ["hakulaite"],
+      "u": "1f4df"
+    },
+    {
+      "n": ["faksikone"],
+      "u": "1f4e0"
+    },
+    {
+      "n": ["paristo"],
+      "u": "1f50b"
+    },
+    {
+      "n": ["sähköpistoke"],
+      "u": "1f50c"
+    },
+    {
+      "n": ["henkilökohtainen tietokone"],
+      "u": "1f4bb"
+    },
+    {
+      "n": ["pöytätietokone"],
+      "u": "1f5a5"
+    },
+    {
+      "n": ["tulostin"],
+      "u": "1f5a8"
+    },
+    {
+      "n": ["näppäimistö"],
+      "u": "2328"
+    },
+    {
+      "n": ["kolminappinen hiiri"],
+      "u": "1f5b1"
+    },
+    {
+      "n": ["trackball"],
+      "u": "1f5b2"
+    },
+    {
+      "n": ["minidisc"],
+      "u": "1f4bd"
+    },
+    {
+      "n": ["disketti"],
+      "u": "1f4be"
+    },
+    {
+      "n": ["optinen levy"],
+      "u": "1f4bf"
+    },
+    {
+      "n": ["dvd"],
+      "u": "1f4c0"
+    },
+    {
+      "n": ["elokuvakamera"],
+      "u": "1f3a5"
+    },
+    {
+      "n": ["filmikehykset"],
+      "u": "1f39e"
+    },
+    {
+      "n": ["filmiprojektori"],
+      "u": "1f4fd"
+    },
+    {
+      "n": ["klaffilauta"],
+      "u": "1f3ac"
+    },
+    {
+      "n": ["televisio"],
+      "u": "1f4fa"
+    },
+    {
+      "n": ["kamera"],
+      "u": "1f4f7"
+    },
+    {
+      "n": ["kamera salamalla"],
+      "u": "1f4f8"
+    },
+    {
+      "n": ["videokamera"],
+      "u": "1f4f9"
+    },
+    {
+      "n": ["videokasetti"],
+      "u": "1f4fc"
+    },
+    {
+      "n": ["suurennuslasi vasemmalle"],
+      "u": "1f50d"
+    },
+    {
+      "n": ["suurennuslasi oikealle"],
+      "u": "1f50e"
+    },
+    {
+      "n": ["mikroskooppi"],
+      "u": "1f52c"
+    },
+    {
+      "n": ["kaukoputki"],
+      "u": "1f52d"
+    },
+    {
+      "n": ["satelliittiantenni"],
+      "u": "1f4e1"
+    },
+    {
+      "n": ["kynttilä"],
+      "u": "1f56f"
+    },
+    {
+      "n": ["sähkölamppu"],
+      "u": "1f4a1"
+    },
+    {
+      "n": ["taskulamppu"],
+      "u": "1f526"
+    },
+    {
+      "n": ["izakaya-lyhty", "lanterna"],
+      "u": "1f3ee"
+    },
+    {
+      "n": ["koristeellinen muistikirja"],
+      "u": "1f4d4"
+    },
+    {
+      "n": ["suljettu kirja"],
+      "u": "1f4d5"
+    },
+    {
+      "n": ["avoin kirja"],
+      "u": "1f4d6"
+    },
+    {
+      "n": ["vihreä kirja"],
+      "u": "1f4d7"
+    },
+    {
+      "n": ["sininen kirja"],
+      "u": "1f4d8"
+    },
+    {
+      "n": ["oranssi kirja"],
+      "u": "1f4d9"
+    },
+    {
+      "n": ["kirjat"],
+      "u": "1f4da"
+    },
+    {
+      "n": ["muistikirja"],
+      "u": "1f4d3"
+    },
+    {
+      "n": ["kirjanpito"],
+      "u": "1f4d2"
+    },
+    {
+      "n": ["sivu kiharalla"],
+      "u": "1f4c3"
+    },
+    {
+      "n": ["käärö"],
+      "u": "1f4dc"
+    },
+    {
+      "n": ["sivu ylöspäin"],
+      "u": "1f4c4"
+    },
+    {
+      "n": ["sanomalehti"],
+      "u": "1f4f0"
+    },
+    {
+      "n": ["rullattu sanomalehti"],
+      "u": "1f5de"
+    },
+    {
+      "n": ["kirjanmerkkivälilehdet", "kirjanmerkkivälilehdet"],
+      "u": "1f4d1"
+    },
+    {
+      "n": ["kirjanmerkki"],
+      "u": "1f516"
+    },
+    {
+      "n": ["etiketti"],
+      "u": "1f3f7"
+    },
+    {
+      "n": ["rahapussi", "rahapussi"],
+      "u": "1f4b0"
+    },
+    {
+      "n": ["setelinippu jenin merkillä", "jeni"],
+      "u": "1f4b4"
+    },
+    {
+      "n": ["setelinippu dollarin merkillä", "dollari"],
+      "u": "1f4b5"
+    },
+    {
+      "n": ["setelinippu euron merkillä", "euro"],
+      "u": "1f4b6"
+    },
+    {
+      "n": ["setelinippu punnan merkillä", "punta"],
+      "u": "1f4b7"
+    },
+    {
+      "n": ["raha siivillä", "raha_siivillä"],
+      "u": "1f4b8"
+    },
+    {
+      "n": ["luottokortti", "luottokortti"],
+      "u": "1f4b3"
+    },
+    {
+      "n": ["kaavio ylöspäin ja jenin merkillä", "kaavio"],
+      "u": "1f4b9"
+    },
+    {
+      "n": ["valuutanvaihto", "valuutanvaihto"],
+      "u": "1f4b1"
+    },
+    {
+      "n": ["painava dollarin merkki", "painava_dollarin_merkki"],
+      "u": "1f4b2"
+    },
+    {
+      "n": ["kirjekuori", "sähköposti"],
+      "u": "2709"
+    },
+    {
+      "n": ["sähköpostisymboli", "sähköposti"],
+      "u": "1f4e7"
+    },
+    {
+      "n": ["saapuva kirjekuori", "saapuva_kirjekuori"],
+      "u": "1f4e8"
+    },
+    {
+      "n": ["kirjekuori nuolella alaspäin", "kirjekuori_nuolella"],
+      "u": "1f4e9"
+    },
+    {
+      "n": ["lähtevän postin lokero", "lähtevän_postin_lokero"],
+      "u": "1f4e4"
+    },
+    {
+      "n": ["saapuvan postin lokero", "saapuvan_postin_lokero"],
+      "u": "1f4e5"
+    },
+    {
+      "n": ["paketti"],
+      "u": "1f4e6"
+    },
+    {
+      "n": ["suljettu postilaatikko ja ylhäällä oleva lippu", "postilaatikko"],
+      "u": "1f4eb"
+    },
+    {
+      "n": [
+        "suljettu postilaatikko ja alhaalla oleva lippu",
+        "postilaatikko_suljettu"
+      ],
+      "u": "1f4ea"
+    },
+    {
+      "n": [
+        "avoin postilaatikko ja ylhäällä oleva lippu",
+        "postilaatikko_postilla"
+      ],
+      "u": "1f4ec"
+    },
+    {
+      "n": [
+        "avoin postilaatikko ja alhaalla oleva lippu",
+        "postilaatikko_ei_postia"
+      ],
+      "u": "1f4ed"
+    },
+    {
+      "n": ["postilaatikko"],
+      "u": "1f4ee"
+    },
+    {
+      "n": ["äänestyslaatikko ja äänestyslippu"],
+      "u": "1f5f3"
+    },
+    {
+      "n": ["lyijykynä", "lyijykynä2"],
+      "u": "270f"
+    },
+    {
+      "n": ["musta kynänkärki", "musta_kynänkärki"],
+      "u": "2712"
+    },
+    {
+      "n": ["alhaalla vasemmalla oleva mustekynä"],
+      "u": "1f58b"
+    },
+    {
+      "n": ["alhaalla vasemmalla oleva kuulakärkikynä"],
+      "u": "1f58a"
+    },
+    {
+      "n": ["alhaalla vasemmalla oleva sivellin"],
+      "u": "1f58c"
+    },
+    {
+      "n": ["alhaalla vasemmalla oleva väriliitu"],
+      "u": "1f58d"
+    },
+    {
+      "n": ["muistilappu", "lyijykynä"],
+      "u": "1f4dd"
+    },
+    {
+      "n": ["salkku"],
+      "u": "1f4bc"
+    },
+    {
+      "n": ["tiedostokansio", "tiedostokansio"],
+      "u": "1f4c1"
+    },
+    {
+      "n": ["avoin tiedostokansio", "avoin_tiedostokansio"],
+      "u": "1f4c2"
+    },
+    {
+      "n": ["kortti-indeksin välilehdet"],
+      "u": "1f5c2"
+    },
+    {
+      "n": ["kalenteri", "päivämäärä"],
+      "u": "1f4c5"
+    },
+    {
+      "n": ["irtirevittävä kalenteri", "kalenteri"],
+      "u": "1f4c6"
+    },
+    {
+      "n": ["kierteinen muistilehtiö"],
+      "u": "1f5d2"
+    },
+    {
+      "n": ["kierteinen kalenterilehtiö"],
+      "u": "1f5d3"
+    },
+    {
+      "n": ["kortti-indeksi", "kortti-indeksi"],
+      "u": "1f4c7"
+    },
+    {
+      "n": ["kaavio ylöspäin", "kaavio_ylöspäin"],
+      "u": "1f4c8"
+    },
+    {
+      "n": ["kaavio alaspäin", "kaavio_alaspäin"],
+      "u": "1f4c9"
+    },
+    {
+      "n": ["palkkikaavio", "palkkikaavio"],
+      "u": "1f4ca"
+    },
+    {
+      "n": ["leikepöytä"],
+      "u": "1f4cb"
+    },
+    {
+      "n": ["nuppineula"],
+      "u": "1f4cc"
+    },
+    {
+      "n": ["pyöreä nuppineula", "pyöreä_nuppineula"],
+      "u": "1f4cd"
+    },
+    {
+      "n": ["paperiliitin"],
+      "u": "1f4ce"
+    },
+    {
+      "n": ["yhteenliitetyt paperiliittimet"],
+      "u": "1f587"
+    },
+    {
+      "n": ["suora viivoitin", "suora_viivoitin"],
+      "u": "1f4cf"
+    },
+    {
+      "n": ["kolmikulmainen viivoitin", "kolmikulmainen_viivoitin"],
+      "u": "1f4d0"
+    },
+    {
+      "n": ["musta sakset", "sakset"],
+      "u": "2702"
+    },
+    {
+      "n": ["korttitiedostolaatikko"],
+      "u": "1f5c3"
+    },
+    {
+      "n": ["tiedostokaappi"],
+      "u": "1f5c4"
+    },
+    {
+      "n": ["roskakori"],
+      "u": "1f5d1"
+    },
+    {
+      "n": ["lukko"],
+      "u": "1f512"
+    },
+    {
+      "n": ["avoin lukko", "avaa_lukko"],
+      "u": "1f513"
+    },
+    {
+      "n": ["lukko mustekynällä", "lukko_mustekynällä"],
+      "u": "1f50f"
+    },
+    {
+      "n": ["suljettu lukko avaimella", "suljettu_lukko_avaimella"],
+      "u": "1f510"
+    },
+    {
+      "n": ["avain"],
+      "u": "1f511"
+    },
+    {
+      "n": ["vanha_avain"],
+      "u": "1f5dd"
+    },
+    {
+      "n": ["vasara"],
+      "u": "1f528"
+    },
+    {
+      "n": ["hakku"],
+      "u": "26cf"
+    },
+    {
+      "n": ["vasara ja hakku"],
+      "u": "2692"
+    },
+    {
+      "n": ["vasara ja jakoavain"],
+      "u": "1f6e0"
+    },
+    {
+      "n": ["tikari"],
+      "u": "1f5e1"
+    },
+    {
+      "n": ["ristikkäiset miekat"],
+      "u": "2694"
+    },
+    {
+      "n": ["pistooli", "ase"],
+      "u": "1f52b"
+    },
+    {
+      "n": ["jousi ja nuoli", "jousi_ja_nuoli"],
+      "u": "1f3f9"
+    },
+    {
+      "n": ["kilpi"],
+      "u": "1f6e1"
+    },
+    {
+      "n": ["jakoavain"],
+      "u": "1f527"
+    },
+    {
+      "n": ["mutteri ja pultti", "mutteri_ja_pultti"],
+      "u": "1f529"
+    },
+    {
+      "n": ["hammasratas"],
+      "u": "2699"
+    },
+    {
+      "n": ["puristin"],
+      "u": "1f5dc"
+    },
+    {
+      "n": ["poltin"],
+      "u": "2697"
+    },
+    {
+      "n": ["vaaka"],
+      "u": "2696"
+    },
+    {
+      "n": ["linkkisymboli", "linkki"],
+      "u": "1f517"
+    },
+    {
+      "n": ["ketjut"],
+      "u": "26d3"
+    },
+    {
+      "n": ["ruisku"],
+      "u": "1f489"
+    },
+    {
+      "n": ["pilleri"],
+      "u": "1f48a"
+    },
+    {
+      "n": ["tupakointisymboli", "tupakointi"],
+      "u": "1f6ac"
+    },
+    {
+      "n": ["arkku"],
+      "u": "26b0"
+    },
+    {
+      "n": ["hautaurna"],
+      "u": "26b1"
+    },
+    {
+      "n": ["moyai"],
+      "u": "1f5ff"
+    },
+    {
+      "n": ["öljytynnyri"],
+      "u": "1f6e2"
+    },
+    {
+      "n": ["kristallipallo", "kristallipallo"],
+      "u": "1f52e"
+    },
+    {
+      "n": ["ostoskärry", "ostoskärry"],
+      "u": "1f6d2"
+    }
+  ]
+}

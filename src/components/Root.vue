@@ -36,17 +36,19 @@
           class="v3-emoji-picker"
           :class="'v3-color-theme-' + colorTheme"
         >
-          <Header />
+          <Header
+            v-if="!hideElements.includes('header')"
+          />
           <Body @select="onSelect" />
-          <Footer />
+          <Footer v-if="!hideElements.includes('footer')" />
         </div>
       </div>
     </div>
   </div>
   <div v-else class="v3-emoji-picker" :class="'v3-color-theme-' + colorTheme">
-    <Header />
+    <Header v-if="!hideElements.includes('header')" />
     <Body @select="onSelect" />
-    <Footer />
+    <Footer v-if="!hideElements.includes('footer')" />
   </div>
 </template>
 
@@ -88,6 +90,22 @@ export default defineComponent({
     text: {
       type: String,
       default: '',
+    },
+    iconsSrc: {
+      type: String,
+      default: '',
+    },
+    iconType: {
+      type: String,
+      default: '',
+    },
+    locale: {
+      type: String,
+      default: '',
+    },
+    hideElements: {
+      type: Array,
+      default: () => [],
     },
     additionalGroups: {
       type: Object,

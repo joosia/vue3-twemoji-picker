@@ -70,7 +70,12 @@ export default defineComponent({
     const emoji = computed<any>(() => {
       return {
         ...state.emoji,
-        src: EMOJI_REMOTE_SRC + '/' + state.emoji[EMOJI_RESULT_KEY] + '.png',
+        src:
+          state.options.iconsSrc +
+          '/' +
+          state.emoji[EMOJI_RESULT_KEY] +
+          '.' +
+          state.options.iconType,
       }
     })
 

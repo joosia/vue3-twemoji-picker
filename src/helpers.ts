@@ -52,19 +52,19 @@ export function filterEmojis(
         let result = emoji[EMOJI_UNICODE_KEY]
 
         // check skin tone
-        if (
-          skinTone !== SKIN_TONE_NEUTRAL &&
-          Array.isArray(emoji[EMOJI_VARIATIONS_KEY])
-        ) {
-          const v_index =
-            emoji[EMOJI_VARIATIONS_KEY]?.findIndex((v) =>
-              v.includes(skinTone)
-            ) || -1
-          if (v_index !== -1 && emoji[EMOJI_VARIATIONS_KEY]) {
-            // @ts-ignore
-            result = emoji[EMOJI_VARIATIONS_KEY][v_index]
-          }
-        }
+        // if (
+        //   skinTone !== SKIN_TONE_NEUTRAL &&
+        //   Array.isArray(emoji[EMOJI_VARIATIONS_KEY])
+        // ) {
+        //   const v_index =
+        //     emoji[EMOJI_VARIATIONS_KEY]?.findIndex((v) =>
+        //       v.includes(skinTone)
+        //     ) || -1
+        //   if (v_index !== -1 && emoji[EMOJI_VARIATIONS_KEY]) {
+        //     // @ts-ignore
+        //     result = emoji[EMOJI_VARIATIONS_KEY][v_index]
+        //   }
+        // }
 
         return _emojis.push({
           ...emoji,

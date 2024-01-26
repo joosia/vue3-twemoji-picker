@@ -1,6 +1,6 @@
 <template>
-  <div v-if="hasGroupIcons || hasSearch" class="v3-header">
-    <div v-if="hasGroupIcons" class="v3-groups">
+  <div v-if="!hiddenElements.includes('header')" class="v3-header">
+    <div v-if="!hiddenElements.includes('group-icons')" class="v3-groups">
       <button
         v-for="group of orderedGroups"
         :key="group.key"
@@ -16,8 +16,13 @@
         </span>
       </button>
     </div>
-    <div v-if="hasGroupIcons && hasSearch" class="v3-spacing" />
-    <div v-if="hasSearch" class="v3-search">
+    <div
+      v-if="
+        !hiddenElements.includes('group-icons') && !hiddenElements.includes('search')
+      "
+      class="v3-spacing"
+    ></div>
+    <div v-if="!hiddenElements.includes('search')" class="v3-search">
       <input v-model="searchValue" type="text" :placeholder="placeholder" />
     </div>
   </div>
@@ -52,9 +57,7 @@ export default defineComponent({
   name: 'Header',
   setup(props) {
     const { state, updateSearch, updateActiveGroup } = inject('store') as Store
-
-    const hasSearch = computed(() => !state.options.hideSearch)
-    const hasGroupIcons = computed(() => !state.options.hideGroupIcons)
+    const hiddenElements = state.hiddenElements
     const orderedKeys = JSON.parse(JSON.stringify(state.orderedGroupKeys))
     const placeholder = computed(
       () => state.options.staticTexts.placeholder || ''
@@ -89,9 +92,8 @@ export default defineComponent({
       orderedKeys,
       searchValue,
       updateActiveGroup,
-      hasSearch,
-      hasGroupIcons,
       placeholder,
+      hiddenElements,
       icons: {
         smileys_people,
         animals_nature,

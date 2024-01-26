@@ -1,7 +1,8 @@
 import { reactive, readonly, toRaw } from 'vue'
 import { DEFAULT_EMOJI, SKIN_TONE_NEUTRAL } from '../constant'
 import { Emoji, EmojiRecord, Group, State, Store } from '../types'
-import emojis from '../data/emojis.json'
+import emojis_en from '../data/en/emojis.json'
+import emojis_fi from '../data/fi/emojis.json'
 import _groups from '../data/groups.json'
 import initialize, { DB_KEY, DB_VERSION, STORE_KEY } from './db'
 import { openDB } from 'idb'
@@ -9,12 +10,18 @@ import { openDB } from 'idb'
 // init db
 initialize()
 
+const emojiSets: Record<string, any> = {
+  en: emojis_en,
+  fi: emojis_fi,
+}
 const defaultOptions: Record<string, any> = {
   native: false,
-  hideSearch: true,
-  hideGroupIcons: false,
-  hideGroupNames: false,
+  iconsSrc:
+    'https://cdn.jsdelivr.net/npm/emoji-datasource-apple@6.0.1/img/apple/64',
+  iconType: 'png',
+  locale: 'en',
   staticTexts: {},
+  hideElements: [],
   disabledGroups: [],
   groupNames: {},
   displayRecent: false,
@@ -42,8 +49,14 @@ export default function Store(): Store {
       return {
         recent: this.recent,
         ...this.options.additionalGroups,
-        ...emojis,
+        ...emojiSets[this.options.locale],
       } as EmojiRecord
+    },
+    get hiddenElements() {
+      let hidden = Array.isArray(this.options.hideElements)
+        ? this.options.hideElements
+        : []
+      return hidden
     },
     get disabled() {
       let disabled = Array.isArray(this.options.disabledGroups)
